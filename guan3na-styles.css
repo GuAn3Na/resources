@@ -1,0 +1,85 @@
+h2{
+    text-align: center;
+    color: white;
+}
+a{
+    color: rgb(21, 148, 78);
+}
+a:hover{
+    color: rgb(28, 173, 93);
+}
+.header{
+    background-image: url(header.jpg);
+    color: white;
+    font-size: large;
+    height: 300px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.nav li a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 120px;
+    font-size: large;
+    color: white;
+    height: 50px ;
+    background-color: rgb(21, 148, 78);
+    transition: all 0.5s ease;
+}
+.nav ul{
+    position: sticky;
+    display: inline-flex;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(21, 148, 78);
+}
+.nav li a:hover{
+    background-color: rgb(28, 173, 93);
+}
+.introduction1{
+    background-color: rgb(16,95,58);
+    text-align: center;
+    color: white;
+    width: 50%;
+    float: left;
+    height: 600px;
+}
+.introduction2{
+    background-color: rgb(16,95,58);
+    text-align: center;
+    color: white;
+    width: 50%;
+    float: right;
+    height: 600px;
+}
+.line{
+    width:100%;
+    background-color: rgb(16,95,58);
+    text-align: center;
+    color: white;
+}
+.card{
+    margin-top: 50px;
+    border-radius: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: white;
+    padding: 30px;
+}
+@media screen and (max-width:600px) {
+    .introduction1{
+        width: 100%;
+        height: auto;
+    }
+    .introduction2{
+        width: 100%;
+        height: auto;
+    }
+    .card{
+        margin: 10px;
+    }
+}
